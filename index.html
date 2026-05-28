@@ -1,0 +1,270 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bhakti Lambate | FPGA, VLSI & Hardware Engineering</title>
+  <meta name="description" content="Portfolio of Bhakti Lambate, an Electronics and VLSI engineering student focused on FPGA, RTL design, hardware engineering, validation, embedded systems, and silicon-minded projects.">
+  <meta name="theme-color" content="#5a0715">
+  <meta property="og:title" content="Bhakti Lambate | FPGA, VLSI & Hardware Engineering">
+  <meta property="og:description" content="Electronics and VLSI engineering portfolio focused on semiconductor architecture, STA, emulation, and pre-silicon validation.">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="bhakti-lambate.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <script>
+    const bootParams = new URLSearchParams(window.location.search);
+    if (bootParams.has("preview")) {
+      document.documentElement.classList.add("skip-boot");
+    }
+  </script>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <a class="skip-link" href="#profile">Skip to portfolio</a>
+  <div class="boot" aria-hidden="true">
+    <div class="boot-frame">
+      <span>BL</span>
+      <p>INITIALIZING HARDWARE PORTFOLIO</p>
+    </div>
+  </div>
+
+  <canvas id="grain-canvas" aria-hidden="true"></canvas>
+  <div class="bg-architecture" aria-hidden="true">
+    <span></span>
+    <span></span>
+    <span></span>
+  </div>
+  <div class="cursor-glow" aria-hidden="true"></div>
+
+  <header class="site-header" data-reveal>
+    <a class="brand-lockup" href="#home" aria-label="Bhakti Lambate home">
+      <span class="brand-mark" aria-hidden="true">BL</span>
+      <span class="brand-text">
+        <strong>Bhakti Lambate</strong>
+        <small>Hardware / VLSI</small>
+      </span>
+    </a>
+    <nav class="nav-links" aria-label="Primary navigation">
+      <a href="#profile">Profile</a>
+      <a href="#skills">Skills</a>
+      <a href="#projects">Projects</a>
+      <a href="#proof">Proof</a>
+      <a href="#education">Education</a>
+    </nav>
+    <div class="nav-actions">
+      <a class="header-cta" href="Bhakti-Lambate-Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+    </div>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-shell section">
+        <div class="hero-copy" data-reveal>
+          <p class="eyebrow">Electronics + VLSI Engineering</p>
+          <h1>Bhakti Lambate</h1>
+          <p class="hero-title">Engineer building across hardware, FPGA, RTL design, validation, and embedded intelligence.</p>
+          <p class="hero-line">My work ethic is simple: make the logic clean, make the measurements honest, and make the system strong enough to trust.</p>
+          <div class="hero-actions">
+            <a class="primary-btn" href="#projects">View Ranked Projects</a>
+            <a class="ghost-btn" href="https://www.linkedin.com/in/bhaktilambate" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+            <a class="ghost-btn" href="https://github.com/bhaktilambate" target="_blank" rel="noopener noreferrer">GitHub</a>
+          </div>
+        </div>
+
+        <div class="hero-visual" data-reveal>
+          <div class="portrait-panel">
+            <img src="bhakti-lambate.png" alt="Portrait of Bhakti Lambate" fetchpriority="high">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section profile-grid" id="profile">
+      <div class="section-kicker" data-reveal>
+        <p class="eyebrow">Target Roles</p>
+        <h2>Focused on semiconductor architecture, timing, and pre-silicon validation roles.</h2>
+      </div>
+      <div class="role-board">
+        <article data-reveal>
+          <span>01</span>
+          <h3>Silicon Architecture & Microarchitecture Engineer</h3>
+          <p>Digital logic fundamentals, computer architecture thinking, RTL development, pipelined processor exposure, and first-principles hardware reasoning.</p>
+        </article>
+        <article data-reveal>
+          <span>02</span>
+          <h3>Physical Design & STA Specialist</h3>
+          <p>Static timing analysis, PPA optimization, synthesis awareness, layout exposure, and timing-aware implementation discipline.</p>
+        </article>
+        <article data-reveal>
+          <span>03</span>
+          <h3>Emulation & Pre-Silicon Validation Engineer</h3>
+          <p>FPGA validation, simulation-first verification, testbenches, waveform reasoning, system testing, and failure analysis.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section skills" id="skills">
+      <div class="section-kicker" data-reveal>
+        <p class="eyebrow">Skills & Technologies</p>
+        <h2>Technical competencies across RTL, architecture, verification, and backend flows.</h2>
+      </div>
+
+      <div class="skills-matrix">
+        <article data-reveal><span class="skill-logo">LANG</span><h3>Languages</h3><p>SystemVerilog, Verilog, Python, Tcl, C++.</p></article>
+        <article data-reveal><span class="skill-logo">DSGN</span><h3>Design</h3><p>Logic gates, FSMs, Clock Domain Crossing.</p></article>
+        <article data-reveal><span class="skill-logo">ARCH</span><h3>Architecture</h3><p>GPU pipelines, HBM/DDR memory, PCIe, NVLink.</p></article>
+        <article data-reveal><span class="skill-logo">VERF</span><h3>Verification</h3><p>UVM framework, SystemVerilog Assertions, constrained randoms.</p></article>
+        <article data-reveal><span class="skill-logo">DFT</span><h3>Backend / DFT</h3><p>Static Timing Analysis, timing constraints, scan chains, BIST.</p></article>
+        <article data-reveal><span class="skill-logo">EDA</span><h3>EDA Tools</h3><p>Synopsys, Cadence, Linux environments.</p></article>
+      </div>
+    </section>
+
+    <section class="section projects" id="projects">
+      <div class="section-kicker" data-reveal>
+        <p class="eyebrow">Selected Projects</p>
+        <h2>Applied hardware and systems projects aligned with silicon engineering.</h2>
+      </div>
+
+      <div class="project-ledger">
+        <article class="project-row priority" data-reveal>
+          <div class="rank">01</div>
+          <div>
+            <p class="project-label">Verilog HDL + Vivado</p>
+            <h3>FPGA Digital Signal Processor Pipeline</h3>
+          </div>
+          <p>Designed a DSP-oriented FPGA pipeline with attention to timing closure, hardware mapping, static timing analysis, and efficient arithmetic on Xilinx architecture.</p>
+          <ul>
+            <li>DSP48E1 slice-oriented implementation thinking</li>
+            <li>RTL-to-hardware signal processing mindset</li>
+            <li>Timing optimization and verification workflow</li>
+          </ul>
+        </article>
+
+        <article class="project-row priority alt" data-reveal>
+          <div class="rank">02</div>
+          <div>
+            <p class="project-label">Xilinx Spartan-7</p>
+            <h3>FPGA Adder Architecture Design</h3>
+          </div>
+          <p>Designed and verified 4-bit Ripple Carry and Carry Look-Ahead adders, then moved through testbench validation and board-level I/O checks.</p>
+          <ul>
+            <li>RCA and CLA design comparison</li>
+            <li>Simulation-driven verification</li>
+            <li>Hardware validation through FPGA inputs and outputs</li>
+          </ul>
+          <a class="repo-tag project-link" href="https://github.com/bhaktilambate" target="_blank" rel="noopener noreferrer">GitHub</a>
+        </article>
+
+        <a class="project-row link-row" href="https://github.com/bhaktilambate/Smart-IoT-Garbage-System" target="_blank" rel="noopener noreferrer" data-reveal>
+          <div class="rank">03</div>
+          <div>
+            <p class="project-label">C++ + IR sensing + microcontroller</p>
+            <h3>Smart IoT Garbage System</h3>
+          </div>
+          <p>IoT-powered smart waste system using IR sensing, microcontroller logic, and electromechanical actuation for autonomous, contactless garbage handling.</p>
+          <ul>
+            <li>IR sensing for contactless interaction</li>
+            <li>Microcontroller-based automation logic</li>
+            <li>Electromechanical actuation for smart waste handling</li>
+          </ul>
+          <span class="repo-tag">GitHub</span>
+        </a>
+
+        <a class="project-row link-row" href="https://github.com/bhaktilambate/Decentralized-AI-Disaster-Response" target="_blank" rel="noopener noreferrer" data-reveal>
+          <div class="rank">04</div>
+          <div>
+            <p class="project-label">AI + crisis response</p>
+            <h3>Decentralized AI Disaster Response</h3>
+          </div>
+          <p>AI-enhanced decentralized system using satellite imagery and predictive analytics to improve resource allocation and resilient emergency response.</p>
+          <ul>
+            <li>Satellite imagery for situational intelligence</li>
+            <li>Predictive analytics for crisis planning</li>
+            <li>Decentralized resource allocation workflow</li>
+          </ul>
+          <span class="repo-tag">GitHub</span>
+        </a>
+      </div>
+    </section>
+
+    <section class="section proof" id="proof">
+      <div class="section-kicker" data-reveal>
+        <p class="eyebrow">Achievements</p>
+        <h2>Academic, technical, and professional milestones.</h2>
+      </div>
+
+      <div class="proof-grid">
+        <article data-reveal>
+          <span>2026</span>
+          <h3>International VLSI Design Conference Fellowship</h3>
+          <p>Selected for semiconductor ecosystem exposure across VLSI, RISC-V, EDA workflows, and chip design conversations.</p>
+        </article>
+        <article data-reveal>
+          <span>2025</span>
+          <h3>Smart India Hackathon Finalist</h3>
+          <p>Recognized nationwide for innovation, rapid prototyping, and technical problem-solving under competition pressure.</p>
+        </article>
+        <article data-reveal>
+          <span>2026</span>
+          <h3>National Test House Intern</h3>
+          <p>Worked on system testing and quality assurance for LIMS and government-grade testing workflows.</p>
+        </article>
+        <article data-reveal>
+          <span>2025</span>
+          <h3>EmpowerHer MERN Stack Trainee</h3>
+          <p>Completed full-stack development training through Contentstack's EmpowerHer program, strengthening software fluency alongside hardware work.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section education" id="education">
+      <div class="section-kicker" data-reveal>
+        <p class="eyebrow">Education</p>
+        <h2>Electronics engineering background with VLSI and AI/ML honors.</h2>
+      </div>
+
+      <div class="education-stack">
+        <article class="education-main" data-reveal>
+          <span>2023 - 2027</span>
+          <h3>B.Tech, Electronics Engineering</h3>
+          <p>VLSI Design & Technology, Vidyavardhini's College of Engineering and Technology.</p>
+          <strong>Honors: Artificial Intelligence & Machine Learning</strong>
+          <strong>Current CGPA: 8.68</strong>
+        </article>
+        <article data-reveal>
+          <span>2021 - 2023</span>
+          <h3>HSC, Computer Science</h3>
+          <p>Previous college foundation in computer science, logic, and engineering preparation.</p>
+        </article>
+        <article data-reveal>
+          <span>2011 - 2021</span>
+          <h3>SSC, Maharashtra Board</h3>
+          <p>School foundation with structured academics and early technical curiosity.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="section contact" id="contact">
+      <div class="contact-panel" data-reveal>
+        <p class="eyebrow">Contact</p>
+        <h2>Looking forward to opportunities in semiconductor design and validation.</h2>
+        <p>Feel free to contact me for roles, collaborations, or conversations around silicon architecture, physical design, STA, emulation, and pre-silicon validation.</p>
+        <div class="social-links">
+          <a href="https://www.linkedin.com/in/bhaktilambate" target="_blank" rel="noopener noreferrer">LinkedIn</a>
+          <a href="https://github.com/bhaktilambate" target="_blank" rel="noopener noreferrer">GitHub</a>
+          <a href="mailto:bhaktilambate@gmail.com">Email</a>
+          <a href="tel:+919769482119">Phone</a>
+          <a href="Bhakti-Lambate-Resume.pdf" target="_blank" rel="noopener noreferrer">Resume</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <span>Bhakti Lambate</span>
+    <span>Semiconductor Design & Validation</span>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
